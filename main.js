@@ -306,7 +306,7 @@ function openDiscord() {
 }
 
 function openGoBack() {
-    openLink("bluemods/index.html", "Home");
+    openLink("index.html", "Home");
 }
 
 function openInviteBot() {
@@ -345,5 +345,5 @@ const validPaths = [
 const currentPath = window.location.pathname;
 
 if (!validPaths.includes(currentPath)) {
-    window.location.href = '/not_found.html';
+    window.location.href = 'not_found.html';
 }
