@@ -248,19 +248,19 @@ function openLink(link, pageName = null) {
 }
 
 function openSoon() {
-    openLink("soon.html", "Coming Soon");
+    openLink("bluemods/soon.html", "Coming Soon");
 }
 
 function openError() {
-    openLink("error.html", "Error");
+    openLink("bluemods/error.html", "Error");
 }
 
 function openChangelogs() {
-    openLink("changelogs.html", "Changelogs");
+    openLink("bluemods/changelogs.html", "Changelogs");
 }
 
 function openDocument() {
-    openLink("document.html", "Documents");
+    openLink("bluemods/document.html", "Documents");
 }
 
 function openDownload() {
@@ -269,15 +269,15 @@ function openDownload() {
 }
 
 function openAndroid() {
-    openLink("downloads.html", "Android Downloads");
+    openLink("bluemods/downloads.html", "Android Downloads");
 }
 
 function openAlliances() {
-    openLink("alliances.html", "Alliances");
+    openLink("bluemods/alliances.html", "Alliances");
 }
 
 function openAbout() {
-    openLink("about.html", "About Us");
+    openLink("bluemods/about.html", "About Us");
 }
 
 function openGithub() {
@@ -306,7 +306,7 @@ function openDiscord() {
 }
 
 function openGoBack() {
-    openLink("index.html", "Home");
+    openLink("bluemods/index.html", "Home");
 }
 
 function openInviteBot() {
