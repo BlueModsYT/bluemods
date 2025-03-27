@@ -248,19 +248,19 @@ function openLink(link, pageName = null) {
 }
 
 function openSoon() {
-    openLink("bluemods/soon.html", "Coming Soon");
+    openLink("soon.html", "Coming Soon");
 }
 
 function openError() {
-    openLink("bluemods/error.html", "Error");
+    openLink("error.html", "Error");
 }
 
 function openChangelogs() {
-    openLink("bluemods/changelogs.html", "Changelogs");
+    openLink("changelogs.html", "Changelogs");
 }
 
 function openDocument() {
-    openLink("bluemods/document.html", "Documents");
+    openLink("document.html", "Documents");
 }
 
 function openDownload() {
@@ -269,15 +269,15 @@ function openDownload() {
 }
 
 function openAndroid() {
-    openLink("bluemods/downloads.html", "Android Downloads");
+    openLink("downloads.html", "Android Downloads");
 }
 
 function openAlliances() {
-    openLink("bluemods/alliances.html", "Alliances");
+    openLink("alliances.html", "Alliances");
 }
 
 function openAbout() {
-    openLink("bluemods/about.html", "About Us");
+    openLink("about.html", "About Us");
 }
 
 function openGithub() {
