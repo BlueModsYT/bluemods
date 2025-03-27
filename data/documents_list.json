@@ -1,0 +1,120 @@
+{
+    "General": [
+        {
+            "name": "HELP",
+            "description": "shows the list of all commands",
+            "usage": [ "!help" ]
+        },
+        {
+            "name": "RTP",
+            "description": "allows you to teleport on random location",
+            "usage": [ "!rtp" ]
+        },
+        {
+            "name": "PING",
+            "description": "show the world's tps and ping",
+            "usage": [ "!ping" ]
+        },
+        {
+            "name": "ABOUT",
+            "description": "shows the developer of the addon",
+            "usage": [ "!about" ]
+        }
+    ],
+    "Moderators": [
+        {
+            "name": "KICK",
+            "description": "kick a specific player in server",
+            "usage": [
+                "!kick \"player\" \"reason\""
+            ]
+        },
+        {
+            "name": "BAN",
+            "description": "allows you to ban a specific player",
+            "usage": [
+                "!ban add [duration] \"player\" \"reason\"",
+                "!ban remove \"player\"",
+                "!ban list"
+            ]
+        },
+        {
+            "name": "CMDSF",
+            "description": "disabled command block logs and popping on chats [MODULE]",
+            "usage": [
+                "!cmdsf enable",
+                "!cmdsf disable"
+            ]
+        },
+        {
+            "name": "MUTE",
+            "description": "mute a specific player in server",
+            "usage": [
+                "!mute add \"player\"",
+                "!mute remove \"player\"",
+                "!mute list"
+            ]
+        },
+        {
+            "name": "FREEZE",
+            "description": "freeze a specific player",
+            "usage": [
+                "!freeze add \"player\"",
+                "!freeze remove \"player\"",
+                "!freeze list"
+            ]
+        },
+        {
+            "name": "LAGCLEAR",
+            "description": "kill all items on the ground.",
+            "usage": [
+                "!lagclear default",
+                "!lagclear mobs",
+                "!lagclear all"
+            ]
+        },
+        {
+            "name": "GIVE",
+            "description": "give yourself an item(s).",
+            "usage": [
+                "!give \"item\" \"value\" [data]"
+            ]
+        },
+        {
+            "name": "TROLL",
+            "description": "troll someone in the server.",
+            "usage": [
+                "!troll \"troll\" \"player\""
+            ]
+        }
+    ],
+    "Operators": [
+        {
+            "name": "OP",
+            "description": "op a specific player in server to immune to any anticheat",
+            "usage": [
+                "!op add \"player\"",
+                "!op remove \"player\"",
+                "!op list"
+            ]
+        },
+        {
+            "name": "NOTIFY",
+            "description": "notification when someone got flagged by the anticheat",
+            "usage": [
+                "!notify add \"player\"",
+                "!notify remove \"player\"",
+                "!notify list"
+            ]
+        },
+        {
+            "name": "TRUSTED",
+            "description": "add trusted or remove on specific player",
+            "usage": [
+                "!trusted add \"player\"",
+                "!trusted remove \"player\"",
+                "!trusted list"
+            ]
+        }
+    ]
+}
