@@ -336,7 +336,7 @@ const validPaths = [
     '/bluemods/changelogs',
     '/bluemods/main',
     '/bluemods/soon',
-    '/not_found',
+    '/bluemods/not_found',
     '/bluemods',
     '/bluemods/'
     
